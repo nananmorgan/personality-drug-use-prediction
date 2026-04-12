@@ -27,7 +27,7 @@ personality-drug-use-prediction/
 ├── Nana_Noda-Morgan_DSC630_TermProject.ipynb              # Full analysis notebook
 ├── Nana_Noda-Morgan_DSC630_TermProject_FinalNotebook.pdf  # Rendered notebook output
 ├── Nana_Noda-Morgan_DSC630-T302_Project_Final.docx        # Project write-up
-├── NanaNoda-Morgan_DSC630_PredictiveAnalytics_Final_Slides.pptx  # Presentation
+├── PredictiveAnalytics_PersonalityPredictDrugUse_Powerpoint.pdf  # Presentation
 └── README.md
 ```
 
