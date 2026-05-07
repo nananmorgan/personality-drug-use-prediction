@@ -24,10 +24,10 @@ Python, scikit-learn, imblearn (SMOTE), pandas, numpy, matplotlib, seaborn, ucim
 ## Repository Contents
 ```
 personality-drug-use-prediction/
-├── Nana_Noda-Morgan_DSC630_TermProject.ipynb              # Full analysis notebook
-├── Nana_Noda-Morgan_DSC630_TermProject_FinalNotebook.pdf  # Rendered notebook output
-├── Nana_Noda-Morgan_DSC630-T302_Project_Final.docx        # Project write-up
-├── PredictiveAnalytics_PersonalityPredictDrugUse_Powerpoint.pdf  # Presentation
+├── drug_use_prediction.ipynb              # Full analysis notebook
+├── drug_use_prediction_output.pdf         # Rendered notebook output
+├── project_writeup.docx                   # Project write-up
+├── presentation.pdf                       # Presentation
 └── README.md
 ```
 
