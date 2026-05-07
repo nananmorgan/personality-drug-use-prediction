@@ -1,7 +1,7 @@
 # Personality-Based Drug Use Prediction
 
 ## Overview
-Can personality traits predict drug use? This project uses the UCI Drug Consumption dataset (1,885 individuals) to investigate whether Big Five personality scores and demographic characteristics can classify individuals as users or non-users across three drug categories: stimulants (amphetamines, cocaine, crack), depressants (benzodiazepines, heroin, methadone), and hallucinogens (LSD, mushrooms, ketamine, ecstasy). Two models — Logistic Regression and Random Forest — are compared using proper cross-validation, SMOTE for class balancing, and leakage-free feature pipelines.
+Can personality traits predict drug use? This project uses the UCI Drug Consumption dataset (1,885 individuals) to investigate whether Big Five personality scores and demographic characteristics can classify individuals as users or non-users across three drug categories: stimulants (amphetamines, cocaine, crack), depressants (benzodiazepines, heroin, methadone), and hallucinogens (LSD, mushrooms, ketamine, ecstasy). Two models: Logistic Regression and Random Forest are compared using proper cross-validation, SMOTE for class balancing, and leakage-free feature pipelines.
 
 ## Key Results
 - Hallucinogen use was the most predictable category, with Random Forest achieving AUC-ROC of 0.867 and 79% accuracy
@@ -16,7 +16,7 @@ Can personality traits predict drug use? This project uses the UCI Drug Consumpt
 - **Leakage Prevention**: All individual drug usage columns and other target labels are dropped before training to ensure predictions are based solely on personality and demographics
 
 ## Dataset
-UCI Drug Consumption dataset (ID: 373), fetched via the `ucimlrepo` library. Contains 1,885 records with 12 demographic and personality features and usage levels for 18 substances. No separate data file is needed — the notebook fetches the data directly from UCI.
+UCI Drug Consumption dataset (ID: 373), fetched via the `ucimlrepo` library. Contains 1,885 records with 12 demographic and personality features and usage levels for 18 substances. No separate data file is needed, the notebook fetches the data directly from UCI.
 
 ## Tools
 Python, scikit-learn, imblearn (SMOTE), pandas, numpy, matplotlib, seaborn, ucimlrepo
